@@ -7,7 +7,10 @@ import {
 } from 'react-native';
 import Constants from 'expo-constants';
 import * as Permissions from 'expo-permissions';
+import first from '../../decks/decks.js';
+import CardView from './CardView.js'
 
+import { NativeRouter, Route, Link } from "react-router-native";
 import {
   BarCodeScanner
 } from 'expo-barcode-scanner';
@@ -73,10 +76,10 @@ export default class BarcodeScannerExample extends React.Component {
   handleBarCodeScanned = ({
     type,
     data
-  }) => {
+    }) => {
     this.setState({
       scanned: true
     });
-    alert(`Bar code with type ${type} and data ${data} has been scanned!`);
+    <CardView card={data} />
   };
 }
