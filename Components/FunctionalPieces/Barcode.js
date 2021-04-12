@@ -80,6 +80,6 @@ export default class BarcodeScannerExample extends React.Component {
     this.setState({
       scanned: true
     });
-    <CardView card={data} />
+    this.props.navigation.navigate('CardView', {card: data})
   };
 }
