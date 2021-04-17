@@ -1,19 +1,11 @@
 import * as React from 'react';
-import {
-  Text,
-  View,
-  StyleSheet,
-  Button
-} from 'react-native';
+import { Text, View, StyleSheet, Button } from 'react-native';
 import Constants from 'expo-constants';
 import * as Permissions from 'expo-permissions';
 import first from '../../decks/decks.js';
-import CardView from './CardView.js'
 
 import { NativeRouter, Route, Link } from "react-router-native";
-import {
-  BarCodeScanner
-} from 'expo-barcode-scanner';
+import { BarCodeScanner } from 'expo-barcode-scanner';
 
 export default class BarcodeScannerExample extends React.Component {
   state = {
@@ -26,9 +18,7 @@ export default class BarcodeScannerExample extends React.Component {
   }
 
   getPermissionsAsync = async() => {
-    const {
-      status
-    } = await Permissions.askAsync(Permissions.CAMERA);
+    const { status } = await Permissions.askAsync(Permissions.CAMERA);
     this.setState({
       hasCameraPermission: status === 'granted'
     });
@@ -47,28 +37,14 @@ export default class BarcodeScannerExample extends React.Component {
       return <Text> No access to camera</Text>
     }
     return (
-      <View >
-        <BarCodeScanner onBarCodeScanned = {
-          scanned ? undefined : this.handleBarCodeScanned
-        }
-        style = {
-          StyleSheet.absoluteFillObject
-        }
-        />
-
-        {
-          scanned && ( <
-            Button title = {
-              'Tap to Scan Again'
-            }
-            onPress = {
-              () => this.setState({
-                scanned: false
-              })
-            }
-            />
-          )
-        }
+      <View style={styles.container}>
+        <View style={{ flex: 1 }}>
+          <BarCodeScanner onBarCodeScanned = {
+            scanned ? undefined : this.handleBarCodeScanned
+          }
+          style={StyleSheet.absoluteFill}
+          />
+        </View>
       </View>
     );
   }
@@ -83,3 +59,10 @@ export default class BarcodeScannerExample extends React.Component {
     this.props.navigation.navigate('CardView', {card: data})
   };
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column'
+  }
+});
