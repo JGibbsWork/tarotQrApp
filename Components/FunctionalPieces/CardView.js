@@ -20,5 +20,11 @@ export default CardView = (props) => {
       <Text>{meaning.description}</Text>
     </View>
   )
-
 }
+
+CardView.navigationOptions = {
+  headerTitle: null,
+  headerLeft: () => {
+    return null;
+  },
+}; 
