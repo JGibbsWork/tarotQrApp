@@ -18,6 +18,12 @@ export default function App() {
           <Stack.Screen
           name="Home"
           component={Home}
+          options={{
+            title: '',
+            headerStyle: {
+              backgroundColor: '#000000'
+            }
+          }}
           />
           <Stack.Screen
           name="Barcode"

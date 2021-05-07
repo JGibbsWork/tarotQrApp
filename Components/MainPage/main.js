@@ -8,10 +8,10 @@ export default function Main (props) {
     <View style={page.container}>
       <LinearGradient
         // Background Linear Gradient
-        colors={['#4c669f', '#3b5998', '#192f6a']}
+        colors={['#000000', '#000000', '#192f6a']}
         style={page.container}
       >
-      <Text style ={page.text}> WELCOME TO MAIN PAGE </Text>
+      <Text style ={page.text}> JOIN US </Text>
       <Button
       onPress={() => props.navigation.navigate('Barcode')}
       title="Scan Card"/>
@@ -25,7 +25,8 @@ const page = StyleSheet.create({
     flex: 1
   },
   text: {
+    fontFamily: 'Didot',
     fontSize: 50,
-    color: '#000'
+    color: 'white'
   },
 });
