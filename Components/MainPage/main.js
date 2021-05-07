@@ -11,7 +11,7 @@ export default function Main (props) {
         colors={['#000000', '#000000', '#192f6a']}
         style={page.container}
       >
-      <Text style ={page.text}> JOIN US </Text>
+      <Text style ={page.header}> JOIN US </Text>
       <Button
       onPress={() => props.navigation.navigate('Barcode')}
       title="Scan Card"/>
@@ -24,8 +24,9 @@ const page = StyleSheet.create({
   container: {
     flex: 1
   },
-  text: {
+  header: {
     marginTop: 80,
+    textAlign: 'center',
     fontFamily: 'Didot',
     fontSize: 50,
     color: 'white'
