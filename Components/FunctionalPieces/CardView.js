@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState } from 'react'
 import * as Font from 'expo-font';
 import AppLoading  from 'expo-app-loading';
-import { Text, View, StyleSheet, Button } from 'react-native';
+import { Text, View, StyleSheet, Button, TouchableOpacity } from 'react-native';
 import first from '../../decks/decks.js';
 import { LinearGradient } from 'expo-linear-gradient';
 
@@ -37,9 +37,9 @@ export default CardView = (props) => {
           >
           <Text style ={page.header}>{meaning.name}</Text>
           <Text style ={page.body}>{meaning.description}</Text>
-          <Button
-          onPress={() => props.navigation.navigate('Barcode')}
-          title="Scan Another"/>
+          <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
+            <Text style={page.button}>Scan Another</Text>
+          </TouchableOpacity>
           </LinearGradient>
         </View>
       )
@@ -59,9 +59,25 @@ const page = StyleSheet.create({
   },
   body: {
     marginTop: 50,
+    marginBottom: 30,
     textAlign: 'center',
     fontFamily: 'SourceCodePro',
     fontSize: 18,
     color: 'white'
+  },
+  buttonContainer: {
+    elevation: 8,
+    backgroundColor: "#192f6a",
+    borderRadius: 5,
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    marginRight: 75,
+    marginLeft: 75
+  },
+  button: {
+    fontSize: 30,
+    color: 'white',
+    fontFamily: 'Didot',
+    alignSelf: "center"
   }
 });
