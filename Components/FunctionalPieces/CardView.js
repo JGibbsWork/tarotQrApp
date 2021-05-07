@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react'
 import * as Font from 'expo-font';
-import { AppLoading } from 'expo';
+import AppLoading  from 'expo-app-loading';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import first from '../../decks/decks.js';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -18,7 +18,7 @@ export default CardView = (props) => {
     'SourceCodePro': require('../../assets/Fonts/SourceCodePro.ttf'),
     });
     };
-    
+
     if(!fontloaded){
       return(
         <AppLoading
