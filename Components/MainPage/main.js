@@ -25,6 +25,7 @@ const page = StyleSheet.create({
     flex: 1
   },
   text: {
+    marginTop: 80,
     fontFamily: 'Didot',
     fontSize: 50,
     color: 'white'
