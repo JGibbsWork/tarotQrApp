@@ -2,15 +2,22 @@ const first = {
   MajorArcana: {
     0: {
       name:"The Fool",
-      description:"The Fool is a card of new beginnings, opportunity and potential. Just like the young man, you are at the outset of your journey, standing at the cliff‘s edge, and about to take your first step into the unknown. Even though you don’t know exactly where you are going, you are being called to commit yourself and follow your heart, no matter how crazy this leap of faith might seem to you. Now is a time when you need to trust where the Universe is taking you."
+      description:`The Fool is a card symbolizing endless opportunities and new beginnings. The fool is a card based in wonder and potential without drawing in the fear of upcoming challenges and future problems ahead. This card will likely symbolize a new beginning or a new stage of one’s life, career, relationship etc.
+
+      It’s a time to lean in. To accept what the universe has in store for you and not to overthink what is coming. You likely know the part of your life you are ready to accelerate and move forward on and this is an ideal time to start moving forward on that. This is an ideal time to begin to experiment, play and to not overthink things. The Fool’s energy is perfect for moving forward onto something that excites you.`
     },
     1: {
       name:"The Magician",
-      description:"The Magician card is numbered One – the number of new beginnings and opportunities – and associates with the planet of Mercury. He stands with one arm stretched upwards towards the Universe, and the other pointing down to the earth. His positioning represents his connection between the spiritual realms and the material realms. The Magician uses this relationship to create and manifest his goals in the physical realm. He is the conduit that converts energy into matter. The Magician’s robe is white, symbolising purity, and his cloak is red, representing worldly experience and knowledge."
+      description:`The Magician truly is a call to manifest what you are looking for in this world. The Magician is powerful and has access to all the magic and resources needed to make your dreams and goals a reality. The one thing he lacks is your truest purest intention on making this into something real.
+
+      While you can wish all you’d like The Magician guides you to check in with yourself and to start making your dreams a reality. Meditate on your connection to your goals and see how this plays into the actions you are putting into the world. This card calls you to put those pieces together if you want to achieve your dreams.`
     },
     2: {
       name:"The High Priestess",
-      description:"The High Priestess sits in front of a thin veil decorated with pomegranates. The veil represents the separate conscious and subconscious realms, the seen and the unseen, and serves to keep casual onlookers out. Only the initiated may enter. The pomegranates on the veil are a symbol of abundance, fertility and the divine feminine, and are sacred to Persephone who ate a pomegranate seed in the underworld and was forced to return every year."
+      description:`The High Priestess represents your guide to spiritual enlightenment. This guardian will help direct you closer to the things that matter more to your subconscious mind.
+
+      This is a moment to be listening to your gut. The High Priestess helps you to see past this current world and into more spiritual knowledge. This is a time where you want to get in touch with the Divine Feminine. While you may not view yourself as feminine, the Divine Feminine signals a closer connection to intuition, empathy, compassion and inner wisdom in general. So look inwards and find what you need inside of yourself.
+      `
     },
     3: {
       name:"The Empress",
