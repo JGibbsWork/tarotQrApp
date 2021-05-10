@@ -1,99 +1,138 @@
 const first = {
   MajorArcana: {
     0: {
-      name:"The Fool",
-      description:`The Fool is a card symbolizing endless opportunities and new beginnings. The fool is a card based in wonder and potential without drawing in the fear of upcoming challenges and future problems ahead. This card will likely symbolize a new beginning or a new stage of one’s life, career, relationship etc.
+      name: "The Fool",
+      description: `New Beginning, Wonder, Innocence
 
-      It’s a time to lean in. To accept what the universe has in store for you and not to overthink what is coming. You likely know the part of your life you are ready to accelerate and move forward on and this is an ideal time to start moving forward on that. This is an ideal time to begin to experiment, play and to not overthink things. The Fool’s energy is perfect for moving forward onto something that excites you.`
+      The Fool is a card symbolizing endless opportunities and new beginnings. This card will likely symbolize a new beginning or a new stage of one’s life, career, relationship etc. It’s a time to lean in. To accept what the universe has in store for you and not to overthink what is coming. This is an ideal time to begin to experiment, play and to not overthink things. The Fool’s energy is perfect for moving forward onto something that excites you.`
     },
     1: {
-      name:"The Magician",
-      description:`The Magician truly is a call to manifest what you are looking for in this world. The Magician is powerful and has access to all the magic and resources needed to make your dreams and goals a reality. The one thing he lacks is your truest purest intention on making this into something real.
+      name: "The Magician",
+      description: `Manifestation, Willpower, Mastery
 
-      While you can wish all you’d like The Magician guides you to check in with yourself and to start making your dreams a reality. Meditate on your connection to your goals and see how this plays into the actions you are putting into the world. This card calls you to put those pieces together if you want to achieve your dreams.`
+      The Magician truly is a call to manifest what you are looking for in this world. The Magician is powerful and has access to all the magic and resources needed to make your dreams and goals a reality. The one thing he lacks is your truest purest intention on making this into something real. While you can wish all you’d like The Magician guides you to start making your dreams a reality. This card calls you to put those pieces together if you want to achieve your dreams.`
     },
     2: {
-      name:"The High Priestess",
-      description:`The High Priestess represents your guide to spiritual enlightenment. This guardian will help direct you closer to the things that matter more to your subconscious mind.
+      name: "The High Priestess",
+      description: `Divine Feminine, Subconsciousness, Truth
 
-      This is a moment to be listening to your gut. The High Priestess helps you to see past this current world and into more spiritual knowledge. This is a time where you want to get in touch with the Divine Feminine. While you may not view yourself as feminine, the Divine Feminine signals a closer connection to intuition, empathy, compassion and inner wisdom in general. So look inwards and find what you need inside of yourself.
-      `
+      The High Priestess represents your guide to spiritual enlightenment. This guardian will help direct you closer to the things that matter more to your subconscious mind.  This is a moment to be listening to your gut. The High Priestess helps you to see past this current world and into more spiritual knowledge. This is a time where you want to get in touch with the Divine Feminine. The High Priestess signals a closer connection to intuition, empathy, compassion and inner wisdom in general. So look inwards and realize you already have the answers you need.`
     },
     3: {
-      name:"The Empress",
-      description:"The Empress is a beautiful, full-figured woman with blonde hair and a peaceful aura about her. On her head, she wears a crown of twelve stars, showing her connection with the mystical realm and the cycles of the natural world (the twelve months of the year and the twelve planets). Her robe is patterned with pomegranates, symbolic of fertility, and sits upon a luxurious array of cushions and flowing red velvet. One cushion features the symbol of Venus, the planet of love, creativity, fertility, beauty and grace – the essence of the Empress."
+      name: "The Empress",
+      description: `Femininity, Nurture and Nature, Luxury
+
+      The Empress encourages you to embrace your feminine side. This card wants you to show compassion and love to others and to yourself. Self care is so important when The Empress arrives. It might be time to reconnect with nature or take some time to embrace all the beauty and abundance this world has allowed you to enjoy.`
     },
     4: {
-      name:"The Emperor",
-      description:"If the Empress is the Mother archetype of the Tarot deck, the Emperor is the Father. He sits upon a large stone throne, adorned with four rams’ heads (symbolic of his connection with Aries and the planet Mars). In his right hand, the Emperor holds an ankh, the Egyptian symbol of life, and in his left is an orb representing the world over which he rules."
+      name: "The Emperor",
+      description: `Established Authority, Ambition, Structure
+
+      The Emperor is power. He built himself up to who he is and has gone through quite the journey to get there. The Emperor wants you to use that same knowledge from experience to find a similar result in your own life. Building yourself up and climbing up to heights you know you are capable of. He is authority and leadership and when he arrives in your reading these are qualities you can embrace as well.`
     },
     5: {
-      name:"The Hierophant",
-      description:"The Hierophant is the masculine counterpart to the High Priestess. He is also known as the Pope or the Teacher in other Tarot decks and is ruled by Taurus. The Hierophant is a religious figure sitting between two pillars of a sacred temple – though this temple differs from the one in which the High Priestess sits. He wears three robes – red, blue and white – and a three-tiered crown, both representing the three worlds over which he rules (the conscious, sub-conscious and super-conscious). In his left hand, he holds the Papal Cross, a triple sceptre that signifies his religious status. He raises his right hand in a religious blessing, with two fingers pointing towards Heaven and two towards Earth."
+      name: "The Hierophant",
+      description: `Spiritual and Religious knowledge, Traditions, Institution
+
+      The Hierophant is a religious teacher. This points to not only institutional knowledge but also more traditional religious beliefs. While he is a teacher of these spiritual philosophies he encourages you to find the ones that work for you either through practice and teachers or by teaching others if you already have a sense of mastery in this. The Hierophant also encourages you to follow the rules in addition to trying to find more spirituality in your present environment.`
     },
     6: {
-      name:"The Lovers",
-      description:"The Lovers card shows a naked man and woman standing beneath the angel, Raphael, whose name means ‘God heals’ and represents both physical and emotional healing. The angel blesses the man and woman and reminds them of their union with the Divine."
+      name: "The Lovers",
+      description: `Relationships, Love, Choices
+
+      The Lovers are a very open look at a relationship. In a typical deck you will see two people both naked, and in this sense that is to be symbolic. This represents not only one’s love life, but also how they approach a relationship. Do you approach it with true honest communication or do you hide from this feeling of intimacy to placate your partners? This is a symbol of choices and crossroads and you need to check in with yourself and make sure you are coming at this challenge with a sense of your own values and morals. While it’s truly important to find love wherever you are, you must also make space for you to love yourself.
+      `
     },
     7: {
-      name:"The Chariot",
-      description:"The Chariot Tarot card shows a brave warrior standing inside a chariot. He wears armour decorated with crescent moons (representing what is coming into being), a tunic with a square (the strength of will) and other alchemical symbols (spiritual transformation). The laurel and star crown signals victory, success and spiritual evolution. Although he appears to be driving the chariot, the charioteer holds no reins – just a wand like the Magician’s – symbolising that he controls through the strength of his will and mind."
+      name: "The Chariot",
+      description: `Action, Success, Self Control
+
+      The Chariot moves forward only when something pulls it. This is a time for action and determination. Your resolve may be tested, but seeing the chariot in a reading is meant to be a positive omen. This is sustaining effort and knowledge. When you combine your spirit and heart with your mind and knowledge and leverage your willower you will become truly unstoppable. `
     },
     8: {
-      name:"Strength",
-      description:"In the Strength Tarot card, a woman gently strokes a lion on its forehead and jaw. Even though it is known for its ferociousness, the woman has tamed this wild beast with her calming, loving energy. The lion is a symbol of raw passions and desires, and in taming him, the woman shows that animal instinct and raw passion can be expressed in positive ways when inner strength and resilience are applied. She doesn’t use force or coercion; she channels her inner strength to subdue and subtly control the lion."
+      name: "Strength",
+      description: `Inner Strength, Compassion, Courage
+
+      Despite its name, Strength is much more a window into yourself. This is a card of your true inner strength. It’s fortitude of your heart, courage, and your ability to handle all new obstacles thrown at you. If you see this card remember that you can handle anything, you have it within yourself to make it through this.`
     },
     9: {
-      name:"The Hermit",
-      description:"The Hermit stands alone on the top of a mountain. The snow-capped range symbolises his spiritual mastery, growth and accomplishment. He has chosen this path of self-discovery and, as a result, has reached a heightened state of awareness."
+      name: "The Hermit",
+      description: `Introspection, Solitude, Awareness
+
+      The Hermit knows themself. This is a sign you need to maybe learn about yourself the way The Hermit already does. Perhaps it’s time to cancel some plans, sit in stillness and listen to what the universe says. This usually comes in a rather pivotal point in your life when you are considering a new direction. Listen closely to what you hear inside yourself in moments of stillness, you’ll know your answer soon.`
     },
     10: {
-      name:"Wheel Of Fortune",
-      description:"The Wheel of Fortune card shows a giant wheel, with three figures on the outer edges. Four Hebrew letters – YHVH (Yod Heh Vau Heh), the unpronounceable name of God – are inscribed on the wheel’s face. There are also the letters TORA, thought to be a version of the word Torah, meaning ‘law’, or TAROT, or even ROTA (Latin for ‘wheel’). The middle wheel has the alchemical symbols for mercury, sulphur, water and salt – the building blocks of life and the four elements – and represents formative power."
+      name: "Wheel Of Fortune",
+      description: `Fate, Cycles, Luck
+
+      The Wheel of Fortune is constantly turning. If you feel down right now this is a reminder that the wheel continues to spin and you will be up again soon enough. If you are feeling on top of everything right now, likewise, it might be a reminder that nothing stays perfect forever. This is a card that sometimes points to Karma at large but is mostly reminding you that nothing is permanent.`
     },
     11: {
-      name:"Justice",
-      description:"The figure of Justice sits in front of a loosely hung purple veil, signifying compassion, and between two pillars, similar to those framing the High Priestess and the Hierophant, which symbolise balance, law and structure. She holds a sword in her right hand, showing the logical, well-ordered mindset necessary to dispense fair justice. The sword points upwards – expressing a firm and final decision – and the double-edged blade signifies that our actions always carry consequences. The scales in her left (intuitive) hand, show intuition must balance that logic and are a symbol of her impartiality. Justice wears a crown with a small square on it representing well-ordered thoughts, and a red robe with a green mantle. A little white shoe pops out from beneath her clothing as a reminder of the spiritual consequences of your actions."
+      name: "Justice",
+      description: `Truth, Law, Cause and effect
+
+      Justice represents Karma. If you are someone who has been wronged and are seeking justice this could be a positive sign that things will soon go your way. If you are someone who may be deserving of Justice it might symbolize that you will be held to account soon. This is a direct result of the decisions you have made in the past and could represent a reward or a punishment.
+      `
     },
     12: {
-      name:"The Hanged Man",
-      description:"The Hanged Man shows a man suspended from a T-shaped cross made of living wood. He is hanging upside-down, viewing the world from a completely different perspective, and his facial expression is calm and serene, suggesting that he is in this hanging position by his own choice. He has a halo around his head, symbolising new insight, awareness and enlightenment. His right foot is bound to the tree, but his left foot remains free, bent at the knee and tucked in behind his right leg. His arms are bent, with hands held behind his back, forming an inverted triangle. The man is wearing red pants representing human passion and the physical body, and a blue vest for knowledge. The Hanged Man is the card of ultimate surrender, of being suspended in time and of martyrdom and sacrifice to the greater good."
+      name: "The Hanged Man",
+      description: `Change in Perspective, Sacrifice, Release
+
+      The Hanged Man is essentially telling you to push the pause button. This is symbol of limbo and tells you the universe is taking care of your problem without you, and on its own schedule. The Hanged Man is traditionally shown as a man hung upside down. This also represents a needed change in perspective of where you are. The pause you are being placed in is not good or bad, it’s simply time for you to detach yourself from what your are fixated on in order to get past this moment.`
     },
     13: {
-      name:"Death",
-      description:"The Death card shows the Messenger of Death – a skeleton dressed in black armour, riding a white horse. The skeleton represents the part of the body which survives long after life has left it; the armour symbolises invincibility and that death will come no matter what. Its dark colour is that of mourning and the mysterious, while the horse is the colour of purity and acts as a symbol of strength and power. Death carries a black flag decorated with a white, five-petal rose, reflecting beauty, purification and immortality and the number five representing change. Together, these symbols reveal that death isn’t just about life ending. Death is about endings and beginnings, birth and rebirth, change and transformation. There is beauty in death, and it is an inherent part of being alive."
+      name: "Death",
+      description: `Endings, Change, New Beginning
+
+      Death in regards to the Tarot is not to be feared, this is not about physical Death but simply the end of an era. An end of a cycle and a beginning of something new. This is a good reminder to let go of the past, to move past what is currently holding you up and to embrace the new beginning you need. Whether this is pointing to fears, relationships, careers, money woes, failures etc. This is a sign to put the past in the past and move onward.`
     },
     14: {
-      name:"Temperance",
-      description:"The Temperance card shows a large, winged angel who is both masculine and feminine. She wears a light blue robe with a triangle enclosed in a square on the front, representing that humans (the triangle) are bound by the Earth and natural law (square). The angel balances between one foot on the rocks, expressing the need to stay grounded, and one foot in the water, showing the need to be in flow. She pours water between two cups, symbolic of the flow and alchemy of life."
+      name: "Temperance",
+      description: `Balance, Finding Meaning, Patience
+
+      Patience Patience Patience. Temperance encourages you to find peace and a sense of zen to your life now. Embrace flexibility and try to embrace the changes as needed. Temperance is a card that wants you to start looking at multiple perspectives and include more opinions in your life. `
     },
     15: {
-      name:"The Devil",
-      description:"The Devil card shows Baphomet, or the Horned Goat of Mendes, a creature that is half man, half goat. Baphomet originally represented the balance between good and evil, male and female, and human and animal; however, more recently, this figure has been linked to the occult and has become a scapegoat for all things considered ‘evil’."
+      name: "The Devil",
+      description: `Addictions, Attachments, Pleasure
+
+      The Devil is an intimidating pretense in the Tarot. He usually arrives when you have feelings of powerlessness, negativity, or things that may be holding you back from who you know you could be. You may be feeling like you have no options or are trapped, and in a sense you are. But the real force that’s keeping you in that state is you. You have the power to move past it, but you need to confront these issues to do it.`
     },
     16: {
-      name:"The Tower",
-      description:"The Tower shows a tall tower perched on the top of a rocky mountain. Lightning strikes set the building alight, and two people leap from the windows, head first and arms outstretched. It is a scene of chaos and destruction. The Tower itself is a solid structure, but because it has been built on shaky foundations, it only takes one bolt of lightning to bring it down. It represents ambitions and goals made on false premises."
+      name: "The Tower",
+      description: `Dramatic New Change, Chaos, Disaster
+
+      The Tower tells of massive changes and total upheaval. This is symbolic of big change you cannot stop. In traditional tarot decks the Tower is shown crumbling from a strike of lightning, meaning the foundation of this building was not prepared for such an event. Much like that you need to rebuild your own foundation and areas of your life which you feel are crumbling from the ground up. You will be better for it in the long run, but this event will definitely leave a few marks.`
     },
     17: {
-      name:"The Star",
-      description:"The Star card shows a naked woman kneeling at the edge of a small pool. She holds two containers of water: one in her left hand (the subconscious) and one in her right (the conscious). She pours the water out to nourish the earth and to continue the cycle of fertility, represented by the lush greenery around her. The other container pours the water onto dry land in five rivulets, representing the five senses."
+      name: "The Star",
+      description: `Hope, Rebuilding, Healing
+
+      The Star is a perfect reminder of hope. This is a direct connection to the divine and all the power and comfort that comes with that. The universe likes having you around, and is ready and willing to help you when needed. This may also invoke a need to find your higher meaning and to discover faith in where life is taking you.`
     },
     18: {
-      name:"The Moon",
-      description:"The Moon card shows a full moon in the night’s sky, positioned between two large towers. The Moon is a symbol of intuition, dreams, and the unconscious. Its light is dim compared to the sun, and only slightly illuminates the path to higher consciousness winding between the two towers. In the foreground is a small pool, representing the watery, subconscious mind. A small crayfish crawls out of the pool, symbolising the early stages of consciousness unfolding. A dog and a wolf stand in the grassy field, howling at the moon, representing both the tamed and the wild aspects of our minds."
+      name: "The Moon",
+      description: `Fear, Lack of Clarity, Intuition
+
+      When The Moon is out, things aren’t quite as easy to make out. Things aren’t as clear as they are during the day. This is symbolic of fears and a lack of clarity in what’s ahead of you. The Moon can present some illusions our way and make things seem worse than they are. Try to curb your anxiety and try to separate what is true from what isn’t.`
     },
     19: {
-      name:"The Sun",
-      description:"The Sun Tarot card radiates with optimism and positivity. A large, bright sun shines in the sky, representing the source of all life on Earth. Underneath, four sunflowers grow tall above a brick wall, representing the four suits of the Minor Arcana and the four elements. In the foreground, a young, naked child is sitting on top of a calm white horse. The child represents the joy of being connected with your inner spirit, and his nakedness is a sign he has nothing to hide and has all the innocence and purity of childhood. The white horse is also a sign of purity and strength."
+      name: "The Sun",
+      description:`Positivity, Joy, Success
+
+      When The Sun is out we find the world is awake, alive and working at full capacity. Much like that it’s good to find a sense of optimism and happiness in this card. This is a good omen and shows that things are working well for you, good people and situations are all around you.`
     },
     20: {
-      name:"Judgement",
-      description:"The Judgement card shows naked men, women, and children rising from their graves, arms outspread and looking up into the sky. Above, Archangel Gabriel – the Messenger of God – blows his trumpet. The people respond to his call, ready to be judged and to find out if they will be accepted into the heavens or not. In the background is an extensive mountain range, signifying the insurmountable obstacles and the impossibility of avoiding judgement."
+      name: "Judgement",
+      description: `Rebirth, Reckoning, Awakening
+
+      Judgement is a card of peak introspection. This is a time for you to make some hard choices. You are being directed to look back and see what you have done up to now and make sure that’s who you want to be moving forward. This card usually shows up when you are reaching a new important part of your personal journey. Take a moment to make sure you are who you want to be before continuing your path, after all, you still have time to make changes as needed.`
     },
     21: {
-      name:"The World",
-      description:"The World card shows a naked woman wrapped in a purple cloth, dancing inside a large laurel wreath. She looks behind her to the past, while her body moves forward to the future. In her hands are two wands or batons, like the one the Magician holds. It is a symbol that what was manifested with the Magician has now come to completion with the World. The wreath is circular, symbolising a continual cycle of successful completion and new beginnings because, as the woman steps through the wreath, she is completing one phase but beginning another one almost straight away."
+      name: "The World",
+      description: `Accomplishment, Completion, Fulfillment
+
+      The World is complete and whole. It shows a completion of the Fools journey and with that all the successes and accomplishments surrounding it. You are exactly where you are meant to be and are ready for your next journey. You have learned what you can and need, and it’s time to push onward. If you do not feel this applies, it means this is around the corner for you, do not give up!`
     }
   },
   Wands: {
