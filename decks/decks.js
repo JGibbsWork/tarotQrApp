@@ -138,59 +138,87 @@ const first = {
   Wands: {
     0: {
       name: "Ace of Wands",
-      description: "In the Ace of Wands, a hand holding a sprouting wand extends out from a cloud, as if to offer a new opportunity or idea with the potential to grow. The rich, verdant landscape is further confirmation of this growth capability. In the distance on the left sits a castle, representing the promise of opportunities to come, and hills and mountains line the horizon. Their rolling peaks remind us that there will always be challenges along the way, but they are surmountable with enough effort."
+      description: `Power, Creation, Inspiration
+
+      Ace of wands is a provider of inspiration and directs you to begin something. It’s often tied with a new beginning. Use your motivation you feel now to set something in action.`
     },
     1: {
       name: "Two of Wands",
-      description: "The Two of Wands shows a man, dressed in a red robe and hat, holding a small globe. The world is literally in his hands, marking the enormous potential before him if he can expand his horizons accordingly. He stands within the confines of his castle, suggesting that while he is contemplating significant opportunities, the man has not yet left his comfort zone to pursue them; he is still very much in the planning phase. His hand rests on an upright wand, and a second wand is affixed to the castle’s wall, a further sign that he is still not ready to venture out. In the background, the land is fertile while also rocky, promising that he has a good chance for success, so long as he can overcome the challenges that will arise."
+      description: `Planning, Discovery, Decisions
+
+      Two of Wands is the entry stages of a new endeavor. If you are feeling overwhelmed by such a large task the Two of Wands encourages you to put a plan in place on how to act on it.`
     },
     2: {
       name: "Three of Wands",
-      description: "The Three of Wands depicts a man in red and green robes standing on a cliff with his back turned. Three wands stand firmly planted in the ground, reflecting his commitment to his plans. He has left the comfort of the castle in the Two of Wands and is now in a vast open space, looking out over the sea to distant mountains. He watches three sailing ships pass by, symbolic of movement and progression. From his high vantage point, he can see all that lies ahead, including any upcoming challenges and opportunities."
+      description: `Expansion, Foresight, Preparation
+
+      This card represents a better sense of peace and balance on a new project or task. This also requires a solid sense of patience in the plans in place to achieve your desired result. This is an invitation to nurture your confidence and to think big.`
     },
     3: {
       name: "Four of Wands",
-      description: "The Four of Wands shows two happy people dancing and celebrating with flowers in their hands. In the foreground, a beautiful wreath abounding with blossoms and grapes suspends between wands. Together, these elements represent the joy and satisfaction that comes with achieving an important goal or milestone. In the background, another group of people (perhaps a family) stand in front of a large castle, representing the safety and comfort of the home."
+      description: `Celebration, Community, Harmony
+
+      The Four Of Wands is focused on teamwork in order to achieve something positive and bigger than yourself. It takes a village and many hands make light work. No matter what the task you are taking on is, the Four of Wands points to better results with a community effort.`
     },
     4: {
       name: "Five of Wands",
-      description: "In the Five of Wands, five men appear to be fighting each other, using their wands as weapons. However, on closer observation, their wands are raised but not striking or injuring anyone. It is as if there is no real purpose or outcome in this chaotic scene other than to create conflict and sow discord amongst the group. Each man wears a different outfit, symbolising their diverse backgrounds and belief systems, and suggesting that, because of their differences, they cannot find harmony and common ground with one another."
+      description: `Tension, Conflict, Disagreement
+
+      The Five of Wands traditionally shows people fighting with wands. This begs the question: are these fights worth the rewards? Ask yourself the same question if you are finding yourself experiencing conflict.`
     },
     5: {
       name: "Six of Wands",
-      description: "The Six of Wands depicts a man wearing a victory wreath around his head and riding a decorated white horse through a crowd of cheering people. His horse represents strength, purity and the successful progression of an adventure, and the group of people marks the public recognition for the man’s achievements. The rider holds an upright wand with a wreath tied to the top, further emphasising success and achievement. He is not afraid to show off to others what he has accomplished in his life so far and, even better, the surrounding crowd is delighted to cheer him along."
+      description: `Public Recognition, Self-Confidence, Victory
+
+      The Six of Wands wants you to recognize your accomplishments and celebrate your successes. It is due to your efforts that you are in a position to celebrate and you should indulge in that success.`
     },
     6: {
       name: "Seven of Wands",
-      description: "The Seven of Wands depicts a man on top of a hill, armed with a wand in each hand and fighting off six more wands drawing up from below. He seems to be defending his territory and his successes. Interestingly, the man is wearing two different shoes, suggesting that he may have been caught unaware or unprepared for battle, or he may be unclear of his own stance and opinion."
+      description: `Challenge, Perseverance, Competition
+
+      The Seven of Wands invoked pride and success in your work. This is an indication that you can put in the blood sweat and tears to make anything happen, but also a warning to not be too cocky. Enjoy your successes, then get back to it. `
     },
     7: {
       name: "Eight of Wands",
-      description: "The Eight of Wands shows eight sprouting wands sailing through the air at high speed. Their flight suggests change, movement and travel. The sky is clear and the beautiful river is flowing freely and giving life to the surrounding landscape."
+      description: `Speed, Action, Movement
+
+      Eight of Wands is symbolic of busy times. Things are happening fast now so it’s time to sink or swim. Get moving, keep going and harness this added focus you feel now.`
     },
     8: {
       name: "Nine of Wands",
-      description: "The Nine of Wands shows an injured man, clutching a wand. He looks over his shoulder towards the eight wands that loom over him. He seems weary and worn, as though he has already been through a battle and now must face additional challenges with the presence of these eight wands. As a Nine, though, this is his final challenge before reaching his goal; he must endure this last test of his strength and character before reaching the finish line."
+      description: `Courage, Resilience, Persistance
+
+      You’ve been pushing really hard haven’t you? The Nine of Wands is a call to rest. Recuperate and begin your progress again at a later date.`
     },
     9: {
       name: "Ten of Wands",
-      description: "The Ten of Wands shows a man carrying a large bundle of sticks towards a small town only a short distance away. His back is bent and he appears to be weighed down by the heavy load he is carrying, but he knows he is almost at his destination and will soon be able to release the heavy weight he is bearing."
+      description: `Stress, Burden, Achievement
+
+      The Ten of Wands is a push where you are in no position to take a break. You need to dedicate everything you have to this push. You are being called to something incredibly demanding and you need to put everything you have into this effort.`
     },
     10: {
       name: "Page of Wands",
-      description: "The Page of Wands shows a young man holding a long staff in both hands as he looks inquisitively at the green leaves sprouting from the top. His tunic is emblazoned with salamanders, a mythical creature associated with fire and transformation. The Page stands still, with his staff firmly planted on the ground, suggesting that while he is inspired by the potential growth represented by the sprouting staff, he has not yet taken action on this inspiration."
+      description: `Free Spirit, Exploration, Enthusiasm
+
+      The Page of Wands is a rebel. This may be a young woman or just a force in your life, but she points to nonconformity and independence. This is a time to explore some interests and try new things.`
     },
     11: {
       name: "Knight of Wands",
-      description: "The Knight of Wands sits on his horse in full armour, wearing a yellow robe decorated with salamanders (associated with the element of fire), and a helmet with fiery red plumes flowing behind him. He holds a sprouting wand in his right hand, which symbolises his energy and enthusiasm for his mission. His horse rises up on its hind legs, poised and ready for action. Like all the Wands Court Cards, the background is hot, dry and barren, with mountains soaring in the distance."
+      description: `Energy, Lust, Impulsiveness
+
+      The Knight of Wands is easy to get excited. He may represent a young man or just a force in your life. This is a time to use this intensity brought by the Knight of Wands to your advantage but to make sure it’s what’s needed now. It could make everything worse if you aren’t careful.`
     },
     12: {
       name: "Queen of Wands",
-      description: "The Queen of Wands sits upon a throne decorated with lions facing opposing directions, a symbol of fire and strength. In her left hand, on her crown and behind her are sunflowers, symbolising life, fertility, joy and satisfaction, and her right hand holds a wand with one small sprout springing to life. A black cat sits at her feet, a sign that while this Queen is bold and outgoing she is also in touch with her shadow self – the darker, lesser-known side of her being."
+      description: `Warmth, Vibrancy, Determination
+
+      The Queen of Wands is a true Leader. She may be a person in your life or just a force. She puts herself out there and is truly confident. It may be time to gain that knowledge for yourself, or to embrace that part of you that already knows. `
     },
     13: {
       name: "King of Wands",
-      description: "The King of Wands sits on his throne, holding a blossoming wand in his hand, a symbol of life and creativity. His throne and cape are decorated with lions and salamanders, both symbols of fire and strength. The salamanders biting their own tails represent infinity and the ongoing drive to move forward against all obstacles."
+      description: `Leader, Entrepreneur, Honor
+
+      The King of Wands is multifaceted but is representative of many classic heroes. He is entrepreneurial, ambitious loves new adventures, and is rather charismatic to boot. He may be someone you know or simply a force currently in your life. Try to find a sense of pride in your accomplishments and also guide others towards success. `
     }
   },
   Pentacles: {
