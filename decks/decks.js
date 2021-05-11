@@ -212,187 +212,271 @@ const first = {
       name: "Queen of Wands",
       description: `Warmth, Vibrancy, Determination
 
-      The Queen of Wands is a true Leader. She may be a person in your life or just a force. She puts herself out there and is truly confident. It may be time to gain that knowledge for yourself, or to embrace that part of you that already knows. `
+      The Queen of Wands is a true Leader. She may be a person in your life or just a force. She puts herself out there and is truly confident. It may be time to gain that knowledge for yourself, or to embrace that part of you that already knows.`
     },
     13: {
       name: "King of Wands",
       description: `Leader, Entrepreneur, Honor
 
-      The King of Wands is multifaceted but is representative of many classic heroes. He is entrepreneurial, ambitious loves new adventures, and is rather charismatic to boot. He may be someone you know or simply a force currently in your life. Try to find a sense of pride in your accomplishments and also guide others towards success. `
+      The King of Wands is multifaceted but is representative of many classic heroes. He is entrepreneurial, ambitious loves new adventures, and is rather charismatic to boot. He may be someone you know or simply a force currently in your life. Try to find a sense of pride in your accomplishments and also guide others towards success.`
     }
   },
   Pentacles: {
     0: {
       name: "Ace of Pentacles",
-      description: "The Ace of Pentacles depicts a hand emerging from the clouds, much like the Aces of the other suits. A large coin sits in the cupped palm, freely available to whoever has the wherewithal to take it. It is as if a new opportunity, associated with wealth, business, and manifestation, has appeared out of nowhere and is now being extended to you in all its glory. The impetus is now on you to accept this offer and turn it into something meaningful and sustainable."
+      description: `New Career Opportunity, Manifestation, Abundance
+
+      Ace Of Pentacles is the seed of a new endeavor. It’s a good omen for finances or career beginnings and encourages you to move forward on that new project you’re excited about.`
     },
     1: {
       name: "Two of Pentacles",
-      description: "In the Two of Pentacles, a young man dances while juggling two coins in his hands. The infinity symbol links the coins, suggesting that this man can handle unlimited problems so long as he manages his time, energy and resources well. In the background, two ships sail the high seas, bobbing up and down on the huge waves – another sign that the ups and downs of life are manageable with focus and attention."
+      description: `Multiple Priorities, Time Management, Adaptability
+
+      Two of Pentacles is telling you that you need to wait a bit to figure out your present challenge. You probably have multiple things feeling like the need attention, but until you get a bit more clarity you can’t know for sure what to do next.`
     },
     2: {
       name: "Three of Pentacles",
-      description: "The Three of Pentacles shows a young stonemason working with his tools on a portion of a cathedral. In front of him two architects hold the plans for the design. The soaring ceilings and intricate engravings signify that both parties are skilled in their respective crafts. The stonemason appears to be discussing his progress so far with the architects, and even though he is less experienced, they value his opinion and specialist knowledge. Their body language insinuates that this young man is an essential contributor to the cathedral’s completion and the architects want to make sure that everyone is on the same page."
+      description: `Teamwork, Learning, Collaboration
+
+      The Three of Cups is a symbol of a master craftsman. This could be you with whatever you are looking to accomplish but you will need the time, effort and collaboration to make those dreams a reality.`
     },
     3: {
       name: "Four of Pentacles",
-      description: "The Four of Pentacles shows a man sitting on a stool, beyond the boundaries of his hometown. His arms are wrapped tightly around a coin as if he fears he may lose it if he loosens his grip. He balances another pentacle on his head, impeding his connection with spirit, and two more sit securely underneath his feet. He clearly doesn’t want anyone to take his coins. However, because he is so attached to his money, he can’t move or go anywhere. He has no one to speak to, not even the friends and family members in the community behind him. The man finds himself stuck in one place with a singular fixation: wealth."
+      description: `Saving money, Security, Control
+
+      Are you too connected to your money? The Four of Pentacles wants you to separate yourself from your net worth. Do what you need to do now, save or spend, but make sure the decisions made around money are done with this sound mind.`
     },
     4: {
       name: "Five of Pentacles",
-      description: "In the Five of Pentacles, two people walk through the icy wind and snow; both are destitute and living in poverty. One man is injured and on crutches, while the other is barefoot and has only a thin blanket to protect him from the bleak winter weather. Behind them sits a church with its lit up and exuding warmth, a symbol of hope, faith and spiritual support. However, because the two people are so focused on their plight, they fail to see that help is available to them and continue on in their desperate journey."
+      description: `Financial Loss, Poverty, Lack Mindset
+
+      The Five of Pentacles is a warning. Money can leave faster than you think. It might be touching on a desire of yours for short term gratification which might end up in long term disappointment. Reconnect with areas in your life separated from money, after all, it’s not everything.`
     },
     5: {
       name: "Six of Pentacles",
-      description: "The Six of Pentacles shows a wealthy man dressed in a red robe, handing out coins to two beggars who kneel at his feet. In his left hand, he holds a balanced scale, representing fairness and equality. This card reflects a state of financial security and generosity, suggesting that you can generously use your wealth and abundance for the benefit of others. But it also speaks to receiving generosity and the feeling of relief that accompanies much-needed assistance. The Six of Pentacles is a card of giving and receiving. Sometimes, you are on the giving end; other times, you are on the receiving end. It’s an ongoing cycle of life, and this card serves as a reminder that the balance can change at any time. Even if you are surrounded by wealth, there will be times when you need the help and support of others, so be generous with your resources, as you may need the support in the future."
+      description: `Giving, Receiving, Sharing Wealth
+
+      Six of Pentacles calls you to be generous or to receive generosity. If you are receiving kindness, make sure to repay in due time, if you are in a positive to give something (be it time, money, knowledge, etc) it’s your duty to do so.`
     },
     6: {
       name: "Seven of Pentacles",
-      description: "In the Seven of Pentacles, a man leans on his hoe, gazing down at his abundant crop. He has worked long and hard to nurture tiny seeds into this thriving garden and can now take a break to enjoy the fruits of his labour. Note the expression in his face, however: he also looks fatigued – even a little ‘over it’ – from having worked so hard for this successful harvest. Success comes from hard work and patience, but this card reminds you to take care not to overdo it and exhaust yourself."
+      description: `Long-Term View, Sustainable Results, Investment
+
+      The Seven of Pentacles is essentially telling you there is no short cut. You need to put in the honest work and have patience that what you are doing will pay off. You will reap what you sow, trust your plan.`
     },
     7: {
       name: "Eight of Pentacles",
-      description: "The Eight of Pentacles shows a young man labouring over eight coins, carefully etching out a pentacle shape into each coin. In the background, there is a small town, however he has separated himself from the distractions of home life so that he can fully dedicate himself to the task at hand. He is concentrating very hard, eager to do a good job and avoid any mistakes. As he creates each coin, his skills improve and he becomes a master at his craft."
+      description: `Apprenticeship, Mastery, Skill Development
+
+      The Eight of Pentacles is about refining your craft. Everyone needs to put in their hours and focus on their career and/or craft but you cannot do it at the expense of life. Make sure you are approaching your pursuit in a balanced way, focus hard, but keep your life outside of it all too.`
     },
     8: {
       name: "Nine of Pentacles",
-      description: "The Nine of Pentacles shows a well-dressed woman standing in a beautiful garden. She wears a flowing, golden robe and a red beret, signs of her wealth and social status. The vines behind her are heavy with grapes and golden coins, representing the fruitful accomplishment of all her desires. Her right hand rests upon one of the many coins, and her fingers wrap around the purple grapes on the vine, symbolising her healthy relationship with money. She can enjoy the fruits of her labours without overdoing it. A hooded falcon sits calmly on her left hand, signifying the woman’s intellectual and spiritual self-control. Far in the background is a large house, presumably belonging to the woman herself, a further signal of her abounding wealth and financial plenty."
+      description: `Abundance, Luxury, Financial Independence
+
+      The Nine of Pentacles is economic security. This card could mean you are in or entering a phase of abundance and enjoying the fruits of your labor. This card encourages you to embrace rest and the hard earned benefits of your efforts.`
     },
     9: {
       name: "Ten of Pentacles",
-      description: "The Ten of Pentacles shows an old, white-haired man wearing an ornately embroidered robe, sitting with his two loyal white dogs at his feet. A younger couple stands nearby with a small child. The man is a wealthy patriarch who has achieved a great deal during his life and is immensely gratified that he can now share his wealth and abundance with his loved ones. His successes and accomplishments are now providing financial security and certainty to his family. He can already see the legacy he has created."
+      description: `Wealth, Financial Security, Family
+
+      The Ten of Pentacles is the conclusion of the Pentacles journey and a truly bountiful conclusion at that. This shows great accomplishments and could be a windfall of money. It should provide motivation to your goals and encourage you to continue on your path.`
     },
     10: {
       name: "Page of Pentacles",
-      description: "The Page of Pentacles depicts a young man standing in a grassy field of blooming flowers. In the distance behind him is a small patch of trees and a newly ploughed field, promising an abundant harvest. The mountain range in the horizon signifies the upcoming challenges and obstacles the Page must surmount along his journey. The Page holds a gold coin in his hand and examines it carefully, as if to discover how to manifest even more gold and abundance."
+      description: `Financial Opportunity, Skill Development, Manifestation
+
+      The Page of Pentacles is an embodiment of learning and planning. This may be a young woman in your life or simply a force around you.`
     },
     11: {
       name: "Knight of Pentacles",
-      description: "The Knight of Pentacles sits on a stationary draught horse, carefully looking at the gold coin held in his hand. He is in no hurry, preferring to assess and plan his path ahead before taking action. In the background, there is a broad field that has been laboriously ploughed row by row, symbolising that this Knight is ready and willing to do the work to realise his dreams, even if it is repetitive and dull."
+      description: `Hard Work, Conservatism, Routine
+
+      The Knight of Pentacles is a lover of peace and is driven for growth. He does the less sexy jobs but the necessary labor to succeed down the road. This may be a young man or simply a force existing around you.`
     },
     12: {
       name: "Queen of Pentacles",
-      description: "In the Queen of Pentacles, a woman sits on a stone throne decorated with carvings of fruit trees, goats, angels and other symbols of material success and sensual pleasure. She cradles a gold coin with both hands and looks down on it with loving care, as if to nurture this symbol of wealth and material success. Luscious plants and flowers surround her, representing her connection to Mother Earth, nature, and abundance. A small rabbit jumps near to where she is seated, symbolising fertility and suggesting that her life is in flow and alignment."
+      description: `Practical, Nurturing, Providing Financially
+
+      The Queen of Pentacles is able to solve any problem, she encourages you to give more of yourself to others and especially your loved ones. This could be a woman in your life or simply energy around you.`
     },
     13: {
       name: "King of Pentacles",
-      description: "The King of Pentacles sits on a throne embellished with carvings of bulls, representing his connection to the astrological sign of Taurus, and grapes and vines adorn his robe, symbolising wealth and abundance. In his right hand, he holds the sceptre of his power, and in his left, he holds a golden coin, symbolic of his material influence. This King has an innate ability to create material wealth and financial abundance – and better yet, he can sustain his wealth over time through self-discipline, control and leadership."
+      description: `Wealth, Business Leadership, Discipline
+
+      The King of Pentacles is someone that has achieved great success and had created a great deal. He represents attainment if you work methodically. He could be a man in your life or simply a force.`
     }
   },
   Cups: {
     0: {
       name: "Ace of Cups",
-      description: "The Ace of Cups shows a chalice overflowing with five streams of water. The cup represents the vessel of your subconscious mind; the five streams are your five senses and the abundant emotion and intuition flowing from within you. The hand holding the cup is sliding out of the clouds, a symbol of your awareness of spiritual energy and influence. Below the hand is a vast sea covered with lotus blossoms, signifying the awakening of the human spirit. A dove descends towards the cup – a symbol of Divine love flowing through the subconscious mind to conscious awareness."
+      description: `Love, New Relationships, Creativity
+
+      The Ace of Cups is overflowing with love and freshness. It tells you to open your heart into support communion and love.`
     },
     1: {
       name: "Two of Cups",
-      description: "The Two of Cups shows a young man and woman, exchanging cups and pledging their love for one another. Above them floats the Caduceus of Hermes – a winged staff with two snakes wrapped around it – the ancient symbol of commerce, trade, and exchange. At the top of the caduceus is a lion’s head, signifying passion and fire energy and suggesting that there may be a lot of fiery, sexual energy between these two people."
+      description: `Unified Love, Partnership, Mutual Attraction
+
+      The Two of Cups is a union of two people meant to spend their lives together. It is a sign to invest more into the closest relationship in your life and build it into the best version it can be.`
     },
     2: {
       name: "Three of Cups",
-      description: "In the Three of Cups, three young women are dancing with each other in a circle, raising their cups high in the air in a toast of joy and celebration. They look to one another with appreciation, honour and respect, and are bound by their emotional connection and friendship. There is a sense of lifting each other up and celebrating each woman’s unique contribution to the group. The ground is layered with flowers, fruit and a pumpkin, symbolising the celebration of an abundant harvest and the goodness in life."
+      description: `Celebration, Friendship, Collaborations
+
+      The Three of Cups is a sign to find the support around you by connecting with kindred spirits. There are great joys in collaboration and group support, now is a time to celebrate your support system.`
     },
     3: {
       name: "Four of Cups",
-      description: "The Four of Cups shows a young man sitting under a tree with his arms crossed, deep in contemplation and meditation. He is so engrossed in his thoughts that he does not seem to notice the outstretched arm offering him a cup. A further three cups stand at his feet, but again, he doesn’t seem to notice or care about these new opportunities either."
+      description: `Meditation, Apathy, Re-Evaluation
+
+      The Four of Cups is a restless moment. Perhaps you are dissatisfied with your current situation, but maybe it’s time to refocus and find new framing. Change your outlook and you may find a way out of wallowing.`
     },
     4: {
       name: "Five of Cups",
-      description: "The Five of Cups shows a man in a long black cloak looking down on three cups that have been knocked over – symbolic of his disappointments and failures. Behind him stand two cups representing new opportunities and potential, but because he is so fixed on his losses (the over-turned cups), he misses the opportunities available to him."
+      description: `Regret, Failure
+
+      The Five of Cups represents some type of great emotional turmoil. Things seem bad at this moment but all is not lost. You need to practice forgiveness maybe for others, maybe for yourself. Learn from this pain and move forward.`
     },
     5: {
       name: "Six of Cups",
-      description: "In the Six of Cups, a young boy leans down and passes a cup filled with flowers to a younger girl. The girl looks up to the boy with love and respect as he offers the flowers to her. Love, harmony and co-operation – all key elements of the Six of Cups – shine through this gentle act. The young children also represent childhood memories"
+      description: `Joy, Innocence, Revisiting the Past
+
+      The Six of Cups is a reminder of the childlike wonder you felt when the entire world was open to you. It’s never too late, you can still live a full bountiful life.`
     },
     6: {
       name: "Seven of Cups",
-      description: "In the Seven of Cups, a man stands before seven cups filled with various gifts. Some cups bear desirable gifts such as jewels and a wreath of victory. But others hold gifts that are not gifts at all; instead, they are curses, such as the snake or dragon. The clouds and the cups symbolise the man’s wishes and dreams, and the different gifts inside suggest that you need to be careful what you wish for as not everything is as it seems. Choices need to be made, but in doing so, you must go beyond illusion and allure, and instead focus on what’s right for you."
+      description: `Opportunities, Choices, Illusion
+
+      The Seven of Cups is very tied to your imagination. Maybe you are daydreaming a bit too much and losing touch with the real world and what’s happening day to day, or maybe you are visualizing something amazing for your future. Keep it in check but explore!`
     },
     7: {
       name: "Eight of Cups",
-      description: "In the Eight of Cups, a man walks away from the eight cups standing in the foreground. The cups are arranged in such a way that it looks like one is missing, a sign that emotional fulfilment and wholeness is lacking. The man has turned his back on these cups with a sense of loss and disappointment and shuffles away into the mountains. A nearby river symbolises his emotions, and the mountains represent the awareness that this will not be an easy journey (though it will be necessary for true long-term happiness). The moon in the night’s sky illuminates the path ahead – the man is leaving in the dead of night hoping to go unnoticed, suggesting that there may be a level of escape or avoidance in this card."
+      description: `Disappointment, Abandonment, Escapism
+
+      The Eight of Cups usually signifies great disappointment. This is a sign you have given something your all and it is time to move on to something different. Stop banging your head against a wall.`
     },
     8: {
       name: "Nine of Cups",
-      description: "In the Nine of Cups, a man sits on a wooden bench. He is comfortable, but not too comfortable (you wouldn’t want to sit on that wooden bench all day!). His arms are crossed, and he has a smile on his face, expressing contentment and satisfaction. Behind him is a curved structure draped in blue material, with nine golden cups arranged in an arch. The cups represent emotional fulfilment after you carry out your deepest desires."
+      description: `Contentment, Gratitude, Wish Come True
+
+      The Nine of Cups is essentially “The Wish” card and is an indicator of great joy and love. When the Nine of Cups shows up, it means things are going to get a lot better. Put forward focus on positive things around until it happens, but it’s around the corner.`
     },
     9: {
       name: "Ten of Cups",
-      description: "On the Ten of Cups, a loving couple stands together, arms outstretched, as their two children play nearby. They look towards their home on the hill and a beautiful rainbow in the sky filled with ten cups. These two have true, everlasting love and have everything they could ever wish for – the home, the kids, and most importantly, fulfilling love – and they share this bond with the people around them."
+      description: `Divine Love, Blissful Relationships, Harmony
+
+      The Ten of Cups is pure joy. It shows connection with family, togetherness and celebration. Your current actions are supported, you should be feeling good about your direction and efforts.`
     },
     10: {
       name: "Page of Cups",
-      description: "The Page of Cups wears a blue tunic with a floral print and a beret on his head with a long, flowing scarf. He stands on the shore, with the wavy sea behind him, holding a cup in his right hand. Surprisingly, a fish pops its head out of the cup and looks at the young man. The fish and the sea behind him represent the element of water and all things to do with creativity, intuition, feelings and emotions. The unexpected appearance of the fish signifies that creative inspiration often comes out of the blue and only when you are open to it."
+      description: `Creative Opportunities, Intuitive Messages, Curiosity
+
+      The Page of Cups is poetic, mystical and emotionally open. She is sensitive and is working to balance out more strength in calculations and emotions. She encourages you to open yourself up to your inner child. She may represent a person in your life, or simply a force.`
     },
     11: {
       name: "Knight of Cups",
-      description: "In the Knight of Cups, a knight rides on a white horse and holds out a golden cup as if he bears a message from the heart. Over his armour, the knight wears a cloak covered with images of fish, the symbol of water, consciousness and creativity. His helmet and boots are winged, a symbol of an active and creative imagination and an appreciation for beautiful things."
+      description: `Creativity, Romance, Charm
+
+      The Knight of Cups cares deeply and is very knowledgeable about matters of the heart. He wants you to remember to balance your dreams with practicality. He is an omen that something will enter your life that can bring great emotional fulfillment. He may be a person in your life or a force.`
     },
     12: {
       name: "Queen of Cups",
-      description: "The Queen of Cups is a beautiful, introspective woman who sits on a throne at the edge of the sea. In her hands, she holds a golden, cup adorned with handles shaped like angels. Unlike most of the cups in the Suit of Cups cards, this cup is closed – showing that the Queen’s thoughts and feelings come from her subconscious mind and the depths of her soul."
+      description: `Compassionate, Caring, Emotionally Stable
+
+      The Queen of Cups is a full embodiment of femininity and emotion. She wants you to trust your inner feelings and to support others as best as you can. She may be a woman in your life or a force.`
     },
     13: {
       name: "King of Cups",
-      description: "The King of Cups sits on a large stone throne and wears a blue tunic and a gold cape – a symbol of his authority and status. A small fish amulet hangs around his neck symbolising his creativity. In his right hand, he holds a cup representing the emotions, and his left has a sceptre, showing power and control. Unlike the other Cups court cards, he doesn’t look at his cup and seems to be focused elsewhere; perhaps he has already mastered his emotional self and doesn’t need to concentrate as hard on this facet of himself."
+      description: `Emotionally Balanced, Compassionate, Diplomatic
+
+      The King of Cups is a full embodiment of emotional strength, passion and commitment. He is accomplished and has mastered his emotions. He encourages you to look deep inwards to understand what’s going on with you. He may be a real person or a force in your life.`
     }
   },
   Swords: {
     0: {
       name: "Ace of Swords",
-      description: "The Ace of Swords shows a gleaming hand appearing from a white cloud, a representation of the Divine. It holds an upright sword, symbolic of the mind and the intellect, and at the tip of the sword sits a crown draped with a wreath, a sign of success and victory. While this Ace is a sign of triumph, the jagged mountains in the background suggest that the road ahead will be challenging. You will need mental resilience to navigate this path."
+      description: `New Ideas, Mental Clarity, Breakthrough
+
+      The Ace of Swords is primal. It’s a motive and a guiding principle that drives you. This is a beginning but usually one that comes after leaving something behind. You have the strength for this battle, and you are ready to fight.`
     },
     1: {
       name: "Two of Swords",
-      description: "The Two of Swords shows a blindfolded woman, dressed in a white robe, holding two crossed swords. The blindfold over her eyes tell us that the woman is confused about her plight and that she can see neither the problem nor the solution clearly. She may also be missing relevant information that would make her decision much clearer if she were to obtain it. The swords she holds are in perfect balance, suggesting that she is weighing her thoughts and addressing both sides of the situation to find the best resolution."
+      description: `Weighing Options, Decisions
+
+      The Two of Swords represents decision making. You may be receiving many mixed signals and are feeling in a bit of limbo. Try to gather as much information as is available, and consider the best move for your future.`
     },
     2: {
       name: "Three of Swords",
-      description: "The Three of Swords shows a heart pierced by three swords, representing the pain inflicted by words, actions and intent on the emotional and physical self. The dark clouds gathering in the background mirror this pain but offer the hope that, just as the storm clouds will disappear, so too will the pain and hurt you are experiencing."
+      description: `Heartbreak, Emotional Pain, Hurt
+
+      The Three of Swords warns and tells of sorrow heartbreak and loss. This however is less of a moment to run from this and instead a moment to lean into the pain you are experiencing. This will gift you the power and strength that comes from overcoming this.`
     },
     3: {
       name: "Four of Swords",
-      description: "The Four of Swords shows a knight lying horizontally on a tomb. He remains in his full armour, and his hands are in the position of prayer as a sign of rest. One sword lies beneath the knight, symbolising a single point of focus, and three swords hang above him, pointing downwards towards his head and torso. The stained-glass window above him shows a woman and child together."
+      description: `Rest, Relaxation, Recuperation
+
+      The Four of Swords is about resting, recuperating, and coming back stronger. If you push forever you will hit total burnout. You need to take some time for yourself if you are going to win this battle.`
     },
     4: {
       name: "Five of Swords",
-      description: "In the Five of Swords, a sly-looking man picks up three swords from the ground. He glances over his shoulder at two men who are walking away with their shoulders slouched, conveying a sense of sadness and loss. Two more swords are strewn across the grass, suggesting a battle has been fought and lost. The sky is cloudy and tumultuous, a sign that not all is well even though the fighting has stopped."
+      description: `Conflict, Winning At All Costs, Defeat
+
+      The Five of Swords wants you to check in with yourself and see if the battle you are fighting is one you want to be a part of. Do you want to be part of this fight? Do you have what it takes to win? What do you need to win next time if this is a lost cause? This is a reminder to think before you act.`
     },
     5: {
       name: "Six of Swords",
-      description: "The Six of Swords shows a woman and a young child being rowed across a body of water towards a nearby land. Her head is covered, suggesting sadness or loss as she moves away from something in her past. Her child nestles in close to her body, looking for safety and comfort as they make this journey together. In the boat stand six swords, suggesting that the woman and child are still carrying memories or baggage from their past into their future."
+      description: `Transition, Rite of Passage, Releasing Baggage
+
+      The Six of Swords is painful but can be necessary. It represents leaving an especially difficult situation. This comes with a reminder that by opening space in your life you will have space for something new. You will have made the right choice.`
     },
     6: {
       name: "Seven of Swords",
-      description: "The Seven of Swords shows a man sneaking away from a military camp with five swords in his arms. He looks over his shoulder at the two upright swords he has left behind. The smile on his face suggests that he is proud of himself for having slipped away without being noticed."
+      description: `Betrayal, Deception, Acting Strategically
+
+      The Seven of Swords wants you to not work hard, but work smart. This is an encouragement to find new ways to get ahead through cunning. Alternatively it could be a wake up call that someone else has successfully duped you into their scheme.`
     },
     7: {
       name: "Eight of Swords",
-      description: "The Eight of Swords shows a woman bound and blindfolded. Eight swords surround her, seemingly trapping her in place, a symbol of the limiting thoughts, beliefs and mindset that prevent her from moving forward in her life. However, look closer: if the woman removed her blindfold, she would quickly realise that she can escape her predicament by letting go of her limiting beliefs and establishing a new, more empowered mindset. The water pooled at her feet suggests that her intuition might see what her eyes cannot."
+      description: `Negative Thoughts, Self Imposed Restriction, Victim Mentality
+
+      The Eight of Swords feels like a trap with no way out. It seems like everything is against you, but in fact the only thing against you is you. The way out of this feeling is through your own mind and mindset. Set yourself free and you will be free.`
     },
     8: {
       name: "Nine of Swords",
-      description: "The Nine of Swords shows a woman sitting up in her bed with her head in her hands. She appears to have been jolted awake from a terrible nightmare that has left her disturbed, scared and anxious. Nine swords hang on the dark wall behind her, representing the negative thoughts that weigh heavily on her mind. The base of the woman’s bed features a carving of one person defeating another, and roses and the outlines of astrological symbols adorn the quilt wrapped around her."
+      description: `Anxiety, Fear, Depression
+
+      The Nine of Swords is a sign of stress and anxiety. This is a wake up call. It’s time to start releasing that stress and come to terms with your demons. The worrying is not helping your situation and is truly only making things worse.`
     },
     9: {
       name: "Ten of Swords",
-      description: "The Ten of Swords shows a man lying face down, apparently dead, with ten swords in his back. A red cape drapes over the lower half of his body as a sign of dignity as he leaves this world. While the dark sky is ominous, the sun is rising on the horizon, bringing a renewed sense of hope and opportunity. The calm sea in the background also brings solace, suggesting that even in times of darkness, there is a sense of peace and calm to be found."
+      description: `Painful Endings, Loss, Crisis
+
+      The Ten of Swords is a loss. You did not succeed with your desired outcome. There is no fix. It’s over. This may feel big now, but hopefully there is comfort in the closure. There is no more progress to be made in this endeavor.`
     },
     10: {
       name: "Page of Swords",
-      description: "The Page of Swords shows a young man standing with his sword pointing upwards to the sky. His body and the sword lean in one direction, but he looks the other way as if to see what else is happening around him. A breeze blows through the young man’s hair, and the clouds behind him appear to dash through the sky, bringing dynamic energy to the card. The ground on which the Page stands is green and fertile, suggesting that the Page’s ideas are likely to bring positive change and forward movement."
+      description: `New Ideas, Curiosity, Thirst For Knowledge
+
+      The Page of Swords wants you to get active. She wants you to get your plan together and begin your course of action. You have everything you need, and now it’s time to get serious. She could be a person in your life or a force surrounding your situation.`
     },
     11: {
       name: "Knight of Swords",
-      description: "The Knight of Swords shows a knight dressed in armour, charging ahead with great energy on his powerful white horse. The knight’s sword is held high, a symbol of his dedication to his purpose and mission. The white horse symbolises the purity of the intellectual energy that motivates the knight. In the background, storm clouds are beginning to form, and the trees bend in the strong winds. The wind doesn’t stop the knight, however; he heads directly into it, eager to complete his mission."
+      description: `Ambitious, Action Oriented, Fast-Thinking
+
+      The Knight of Swords leaps first. He is courageous and does not back down. If you are considering a big move he wants you to join him in accomplishing big goals. He could represent a person in your life or a force around you.`
     },
     12: {
       name: "Queen of Swords",
-      description: "The Queen of Swords sits on a stone throne decorated with a cherub, representing the Queen’s softer side, and butterflies representing transformation. She faces towards the future, with her left hand raised as if to receive, and in her right hand, she holds a sword up high and straight, representing her desire to find the truth in all matters. As with the earlier Swords Court cards, clouds accumulate in the sky and a strong wind that passes through the trees, symbolising the ongoing nature of change."
+      description: `Independent, Unbiased, Direct Communication
+
+      The Queen of Swords is smart, self-sufficient, and fiercely independent. She wants you to embody that as much as you can in your own life. She may represent a woman in your life or if these forces speak to you it might point to that instead. Be you. You rob the universe of who you are if you conform.`
     },
     13: {
       name: "King of Swords",
-      description: "The King of Swords sits upon his throne, facing forward as if ready to confront whatever life throws at him. He holds a sword in his right hand, the hand of the conscious, rational mind, and points it upright and to the left, the side of the subconscious, intuitive mind. This symbolises the King’s decisiveness, but also flexibility in all matters; while he makes decisions based mostly on his intellectual understanding, he stays open to his intuition. The King wears a blue tunic, symbolic of a desire for spiritual knowledge, and a purple cape, symbolic of his compassion and intellect. The back of his throne is decorated with butterflies (transformation), crescent moons and an angel just near his left ear, positioned as if to give him subtle guidance."
+      description: `Mental Clarity, Intellectual Power, Truth
+
+      The King of Swords is an incredible source of wisdom, his strength is in intelligence, truth and fairness. He is here to lend guidance and encourages you to give it if you have guidance to give. If you need guidance look to your mind, not your emotions. This could be a person or a force in your life.`
     }
   }
   }
