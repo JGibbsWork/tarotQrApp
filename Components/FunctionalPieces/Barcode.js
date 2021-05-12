@@ -51,7 +51,6 @@ export default class BarcodeScannerExample extends React.Component {
     type,
     data
     }) => {
-      console.log(typeof data)
       let temp = data.substring(0,7)
       if (temp === '{"Suit"') {
         this.props.navigation.navigate('CardView', {card: data})
