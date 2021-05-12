@@ -27,7 +27,7 @@ export default CardView = (props) => {
         onError={console.warn}/>
       )
     }
-    else if (page.body) {
+    else {
       return(
         <View style={page.container}>
           <LinearGradient
@@ -37,22 +37,6 @@ export default CardView = (props) => {
           >
           <Text style ={page.header}>{meaning.name}</Text>
           <Text style ={page.body}>{meaning.description}</Text>
-          <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
-            <Text style={page.button}>Scan Another</Text>
-          </TouchableOpacity>
-          </LinearGradient>
-        </View>
-      )
-    } else {
-      return (
-        <View style={page.container}>
-          <LinearGradient
-            // Background Linear Gradient
-            colors={['#000000', '#000000', '#192f6a']}
-            style={page.container}
-          >
-          <Text style ={page.header}>OOPS</Text>
-          <Text style ={page.body}>Looks like you meant to scan </Text>
           <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
             <Text style={page.button}>Scan Another</Text>
           </TouchableOpacity>

@@ -14,21 +14,30 @@ export default function WrongCode () {
     });
     };
 
-  return (
-    <View style={page.container}>
-      <LinearGradient
-        // Background Linear Gradient
-        colors={['#000000', '#000000', '#192f6a']}
-        style={page.container}
-      >
-      <Text style ={page.header}>OOPS</Text>
-      <Text style ={page.body}>Looks like you tried to scan a QR but not one of our tarot cards! Please try again</Text>
-      <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
-        <Text style={page.button}>Scan Another</Text>
-      </TouchableOpacity>
-      </LinearGradient>
-    </View>
-  )
+  if(!fontloaded){
+    return(
+      <AppLoading
+      startAsync={fetchFonts}
+      onFinish={()=>{setfontloaded(true)}}
+      onError={console.warn}/>
+    )
+  } else {
+    return (
+      <View style={page.container}>
+        <LinearGradient
+          // Background Linear Gradient
+          colors={['#000000', '#000000', '#192f6a']}
+          style={page.container}
+        >
+        <Text style ={page.header}>OOPS</Text>
+        <Text style ={page.body}>Looks like you tried to scan a QR but not one of our tarot cards! Please try again</Text>
+        <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
+          <Text style={page.button}>Scan Another</Text>
+        </TouchableOpacity>
+        </LinearGradient>
+      </View>
+    )
+  }
 }
 
 const page = StyleSheet.create({
