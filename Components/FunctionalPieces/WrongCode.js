@@ -31,7 +31,7 @@ export default function WrongCode () {
         >
         <Text style ={page.header}>OOPS</Text>
         <Text style ={page.body}>Looks like you tried to scan a QR but not one of our tarot cards! Please try again</Text>
-        <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
+        <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode', {scanned: true})}>
           <Text style={page.button}>Scan Another</Text>
         </TouchableOpacity>
         </LinearGradient>

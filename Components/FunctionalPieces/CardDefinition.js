@@ -3,15 +3,12 @@ import { useState } from 'react'
 import * as Font from 'expo-font';
 import AppLoading  from 'expo-app-loading';
 import { Text, View, StyleSheet, Button, TouchableOpacity } from 'react-native';
-import first from '../../decks/decks.js';
 import { LinearGradient } from 'expo-linear-gradient';
 
 
-export default CardView = (props) => {
+export default CardDefinition = (props) => {
   let [fontloaded,setfontloaded] = useState(false);
-  let data = props.route.params.card;
-  let card = JSON.parse(data)
-  let meaning = first[card.Suit][card.Position];
+  let meaning = props.route.params
 
   const fetchFonts = () => {
     return Font.loadAsync({
@@ -28,6 +25,7 @@ export default CardView = (props) => {
       )
     }
     else {
+      console.log(props.route)
       return(
         <View style={page.container}>
           <LinearGradient
@@ -37,8 +35,8 @@ export default CardView = (props) => {
           >
           <Text style ={page.header}>{meaning.name}</Text>
           <Text style ={page.body}>{meaning.description}</Text>
-          <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode', {scanned: true})}>
-            <Text style={page.button}>Scan Another</Text>
+          <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Library')}>
+            <Text style={page.button}>Back to Suits</Text>
           </TouchableOpacity>
           </LinearGradient>
         </View>
@@ -71,8 +69,9 @@ const page = StyleSheet.create({
     borderRadius: 5,
     paddingVertical: 10,
     paddingHorizontal: 12,
-    marginRight: 75,
-    marginLeft: 75
+    marginTop: 3,
+    marginRight: 50,
+    marginLeft: 50
   },
   button: {
     fontSize: 30,

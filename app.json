@@ -20,7 +20,8 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to scan QR Codes on a specialized Tarot Card Deck."
-      }
+      },
+      "bundleIdentifier": "com.jgibbswork.INTRSPCT-TAROT"
     },
     "android": {
       "adaptiveIcon": {

@@ -2,16 +2,27 @@ import * as React from 'react';
 import { useState } from 'react'
 import * as Font from 'expo-font';
 import AppLoading  from 'expo-app-loading';
-import { Text, View, StyleSheet, Button, TouchableOpacity } from 'react-native';
+import { Text, View, ScrollView, StyleSheet, Button, TouchableOpacity } from 'react-native';
 import first from '../../decks/decks.js';
 import { LinearGradient } from 'expo-linear-gradient';
 
 
-export default CardView = (props) => {
-  let [fontloaded,setfontloaded] = useState(false);
-  let data = props.route.params.card;
-  let card = JSON.parse(data)
-  let meaning = first[card.Suit][card.Position];
+export default Library = (props) => {
+  let [fontloaded, setfontloaded] = useState(false);
+  let temp = props.route.params.suit
+  console.log(temp)
+  let cardList = () => {
+    return first[temp].map((element, idx) => {
+      return (
+        <View key={idx}>
+          <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('CardDefinition', element)}>
+            <Text style={page.button}>{element.name}</Text>
+          </TouchableOpacity>
+        </View>
+      )
+    })
+  }
+
 
   const fetchFonts = () => {
     return Font.loadAsync({
@@ -35,11 +46,9 @@ export default CardView = (props) => {
             colors={['#000000', '#000000', '#192f6a']}
             style={page.container}
           >
-          <Text style ={page.header}>{meaning.name}</Text>
-          <Text style ={page.body}>{meaning.description}</Text>
-          <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode', {scanned: true})}>
-            <Text style={page.button}>Scan Another</Text>
-          </TouchableOpacity>
+            <ScrollView style={page.list}>
+              {cardList()}
+            </ScrollView>
           </LinearGradient>
         </View>
       )
@@ -71,8 +80,13 @@ const page = StyleSheet.create({
     borderRadius: 5,
     paddingVertical: 10,
     paddingHorizontal: 12,
-    marginRight: 75,
-    marginLeft: 75
+    marginTop: 3,
+    marginRight: 25,
+    marginLeft: 25
+  },
+  list: {
+    marginTop: 75,
+    marginBottom: 50
   },
   button: {
     fontSize: 30,

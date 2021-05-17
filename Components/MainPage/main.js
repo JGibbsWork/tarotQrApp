@@ -32,8 +32,11 @@ export default function Main (props) {
       >
       <Text style ={page.header}> WELCOME </Text>
       <Text style={page.body}>To use our app, simply press "scan card" below and point your camera at your card from our deck. </Text>
-      <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode')}>
+      <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode', {scanned: true})}>
         <Text style={page.button}>Scan Card</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Library')}>
+        <Text style={page.button}>Card Definitions</Text>
       </TouchableOpacity>
       </LinearGradient>
     </View>
@@ -65,8 +68,9 @@ const page = StyleSheet.create({
     borderRadius: 5,
     paddingVertical: 10,
     paddingHorizontal: 12,
-    marginRight: 100,
-    marginLeft: 100
+    marginTop: 3,
+    marginRight: 50,
+    marginLeft: 50
   },
   button: {
     fontSize: 30,

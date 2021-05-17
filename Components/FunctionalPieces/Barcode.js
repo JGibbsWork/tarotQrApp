@@ -7,7 +7,7 @@ import first from '../../decks/decks.js';
 import { NativeRouter, Route, Link } from "react-router-native";
 import { BarCodeScanner } from 'expo-barcode-scanner';
 
-export default class BarcodeScannerExample extends React.Component {
+export default class CardScanner extends React.Component {
   state = {
     hasCameraPermission: null
   };
