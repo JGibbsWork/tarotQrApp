@@ -41,15 +41,9 @@ export default Library = (props) => {
     else {
       return(
         <View style={page.container}>
-          <LinearGradient
-            // Background Linear Gradient
-            colors={['#000000', '#000000', '#192f6a']}
-            style={page.container}
-          >
             <ScrollView style={page.list}>
               {cardList()}
             </ScrollView>
-          </LinearGradient>
         </View>
       )
     }
@@ -57,7 +51,8 @@ export default Library = (props) => {
 
 const page = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: "black"
   },
   header: {
     marginTop: 70,

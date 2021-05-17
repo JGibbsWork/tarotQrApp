@@ -27,11 +27,6 @@ export default Library = (props) => {
     else {
       return(
         <View style={page.container}>
-          <LinearGradient
-            // Background Linear Gradient
-            colors={['#000000', '#000000', '#192f6a']}
-            style={page.container}
-          >
             <Text style={page.header}>SUITS</Text>
             <ScrollView style={page.listView}>
             <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('SuitList', {suit: 'MajorArcana'})}>
@@ -50,7 +45,6 @@ export default Library = (props) => {
             <Text style={page.button}>Swords</Text>
           </TouchableOpacity>
             </ScrollView>
-          </LinearGradient>
         </View>
       )
     }
@@ -58,7 +52,8 @@ export default Library = (props) => {
 
 const page = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: "black"
   },
   header: {
     marginTop: 100,

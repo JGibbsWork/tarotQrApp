@@ -25,27 +25,31 @@ export default function Main (props) {
     }
   return (
     <View style={page.container}>
-      <LinearGradient
-        // Background Linear Gradient
-        colors={['#000000', '#000000', '#192f6a']}
-        style={page.container}
-      >
-      <Text style ={page.header}> WELCOME </Text>
-      <Text style={page.body}>To use our app, simply press "scan card" below and point your camera at your card from our deck. </Text>
+        <View style={page.box}>
+          <Text style ={page.header}> Ready to INTRSPCT? </Text>
+        </View>
+      <Text style={page.body}>This is your go to quick resource for your INTRSPCT Tarot deck. To see quick definitions of all cards, check the library of the 78 cards in Card Definitions. Otherwise when you are ready to conduct a reading press scan card and begin connecting the dots in your life.</Text>
       <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Barcode', {scanned: true})}>
         <Text style={page.button}>Scan Card</Text>
       </TouchableOpacity>
       <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Library')}>
         <Text style={page.button}>Card Definitions</Text>
       </TouchableOpacity>
-      </LinearGradient>
     </View>
   )
 }
 
 const page = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: "black"
+  },
+  box: {
+    borderRadius: 5,
+    borderBottomColor: 'white',
+    borderWidth: 1,
+    marginLeft: 45,
+    marginRight: 45
   },
   header: {
     marginTop: 80,
