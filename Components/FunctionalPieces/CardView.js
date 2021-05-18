@@ -4,7 +4,7 @@ import * as Font from 'expo-font';
 import AppLoading  from 'expo-app-loading';
 import { Text, View, StyleSheet, Button, ScrollView, TouchableOpacity } from 'react-native';
 import first from '../../decks/decks.js';
-import { LinearGradient } from 'expo-linear-gradient';
+
 
 
 export default CardView = (props) => {

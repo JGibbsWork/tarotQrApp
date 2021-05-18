@@ -25,7 +25,6 @@ export default CardDefinition = (props) => {
       )
     }
     else {
-      console.log(meaning)
       return(
         <View style={page.container}>
           <View style={page.card}>

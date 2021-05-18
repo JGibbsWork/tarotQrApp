@@ -10,7 +10,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 export default Library = (props) => {
   let [fontloaded, setfontloaded] = useState(false);
   let temp = props.route.params.suit
-  console.log(temp)
   let cardList = () => {
     return first[temp].map((element, idx) => {
       return (
