@@ -28,8 +28,9 @@ export default CardDefinition = (props) => {
       return(
         <View style={page.container}>
           <View style={page.card}>
-            <View style={page.box}>
-              <Text style ={page.header}>{meaning.name}</Text>
+              <View style={page.headBox}>
+                <Text style ={page.header} adjustsFontSizeToFit>{meaning.name}</Text>
+              </View>
               <View style={page.viewText}>
                 <ScrollView>
                   <View>
@@ -40,10 +41,11 @@ export default CardDefinition = (props) => {
                   </View>
                 </ScrollView>
               </View>
+              <View style={page.please}>
                 <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Library')}>
                   <Text style={page.button}>Back to Suits</Text>
                 </TouchableOpacity>
-            </View>
+              </View>
           </View>
         </View>
       )
@@ -58,21 +60,22 @@ const page = StyleSheet.create({
   card:{
     borderColor: 'white',
     borderWidth: 1,
-    marginTop:50,
-    minHeight: 700
-  },
-  box: {
-    borderRadius: 3
+    marginTop:'15%',
+    height: '85%',
+    elevation: 1000,
+    position: 'absolute',
+    borderRadius: 3,
+    flexDirection: 'column'
   },
   viewText: {
-    maxHeight: 450,
-    minHeight: 450,
+    height: '65%',
     borderColor: 'white',
-    borderWidth: 1,
-    marginBottom: 40
+    flex: 6,
+    borderTopWidth: 1,
+    borderBottomWidth: 1
   },
   chars:{
-    marginTop: 10,
+    marginTop: '8%',
     textAlign: 'center',
     fontFamily: 'SourceCodePro',
     fontSize: 25,
@@ -81,39 +84,44 @@ const page = StyleSheet.create({
   textBox: {
     borderColor: 'white',
     borderWidth: 1,
-    marginBottom: 40
+  },
+  headBox: {
+    flex: 2,
+    justifyContent: 'center'
   },
   header: {
-    marginTop: 20,
-    marginBottom: 50,
+    marginTop: '5%',
+    marginBottom: '5%',
     textAlign: 'center',
     fontFamily: 'Didot',
-    fontSize: 50,
+    fontSize: 40,
+    fontWeight: 'bold',
     color: 'white'
   },
   body: {
-    marginTop: 50,
-    marginBottom: 30,
+    marginTop: '10%',
     textAlign: 'center',
-    marginHorizontal: 20,
+    marginHorizontal: '6%',
     fontFamily: 'SourceCodePro',
     fontSize: 18,
     color: 'white'
   },
   buttonContainer: {
-    elevation: 8,
-    backgroundColor: "#192f6a",
-    borderRadius: 5,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    marginTop: 3,
-    marginRight: 50,
-    marginLeft: 50
+    paddingVertical: '5%',
+    alignSelf: 'stretch'
   },
   button: {
     fontSize: 30,
+    fontWeight: 'bold',
+    justifyContent: 'center',
     color: 'white',
     fontFamily: 'Didot',
     alignSelf: "center"
+  },
+  please: {
+    flex: 2,
+    justifyContent: 'center',
+    backgroundColor: "#192f6a",
+    zIndex: 1,
   }
 });
