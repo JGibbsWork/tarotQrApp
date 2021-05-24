@@ -18,34 +18,83 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
       <NavigationContainer>
-        <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Navigator>
           <Stack.Screen
           name="Home"
           component={Home}
+          options={{
+            title: 'INTRSPCT',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
           <Stack.Screen
           name="Barcode"
           component={Barcode}
+          options={{
+            title: 'Scan',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
           <Stack.Screen
           name="CardView"
           component={CardView}
+          options={{
+            title: 'Definition',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
           <Stack.Screen
           name="WrongCode"
           component={WrongCode}
+          options={{
+            title: 'Oops',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
           <Stack.Screen
           name="Library"
           component={Library}
+          options={{
+            title: 'Library',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
           <Stack.Screen
           name="SuitList"
           component={SuitList}
+          options={{
+            title: 'Suit',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
           <Stack.Screen
           name="CardDefinition"
           component={CardDefinition}
+          options={{
+            title: 'Definition',
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+          }}
           />
         </Stack.Navigator>
       </NavigationContainer>

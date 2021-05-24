@@ -60,7 +60,7 @@ const page = StyleSheet.create({
   card:{
     borderColor: 'white',
     borderWidth: 1,
-    marginTop:'15%',
+    marginTop:'5%',
     height: '85%',
     elevation: 1000,
     position: 'absolute',

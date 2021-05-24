@@ -48,7 +48,7 @@ const page = StyleSheet.create({
     backgroundColor: "black"
   },
   header: {
-    marginTop: 80,
+    marginTop: '5%',
     textAlign: 'center',
     fontFamily: 'Didot',
     fontSize: 50,

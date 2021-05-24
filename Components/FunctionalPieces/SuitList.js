@@ -79,7 +79,7 @@ const page = StyleSheet.create({
     marginLeft: 25
   },
   list: {
-    marginTop: 75,
+    marginTop: '5%',
     marginBottom: 50
   },
   button: {
