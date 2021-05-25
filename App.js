@@ -23,7 +23,7 @@ export default function App() {
           name="Home"
           component={Home}
           options={{
-            title: 'INTRSPCT',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },
@@ -34,7 +34,7 @@ export default function App() {
           name="Barcode"
           component={Barcode}
           options={{
-            title: 'Scan',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },
@@ -45,7 +45,7 @@ export default function App() {
           name="CardView"
           component={CardView}
           options={{
-            title: 'Definition',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },
@@ -56,7 +56,7 @@ export default function App() {
           name="WrongCode"
           component={WrongCode}
           options={{
-            title: 'Oops',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },
@@ -67,7 +67,7 @@ export default function App() {
           name="Library"
           component={Library}
           options={{
-            title: 'Library',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },
@@ -78,7 +78,7 @@ export default function App() {
           name="SuitList"
           component={SuitList}
           options={{
-            title: 'Suit',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },
@@ -89,7 +89,7 @@ export default function App() {
           name="CardDefinition"
           component={CardDefinition}
           options={{
-            title: 'Definition',
+            title: '',
             headerStyle: {
               backgroundColor: 'black',
             },

@@ -36,7 +36,7 @@ export default function Main (props) {
         <TouchableOpacity style={page.buttonContainer} onPress={() => props.navigation.navigate('Library')}>
           <Text style={page.button}>Card Definitions</Text>
         </TouchableOpacity>
-        <Text style={page.body}>Need some cards? Please check our store below</Text>
+        <Text style={page.bottom}>Need some cards? Please check our store below</Text>
         <TouchableOpacity style={page.buttonContainer} onPress={() => Linking.openURL('https://www.etsy.com/listing/1009603122/intrspct-tarot-deck?ref=shop_home_active_1')}>
           <Text style={page.button}>Buy Tarot Cards</Text>
         </TouchableOpacity>
@@ -65,8 +65,16 @@ const page = StyleSheet.create({
     color: 'white'
   },
   body: {
-    marginTop: 50,
-    marginBottom: 50,
+    marginTop: '8%',
+    marginBottom: '8%',
+    textAlign: 'center',
+    fontFamily: 'SourceCodePro',
+    fontSize: 18,
+    color: 'white'
+  },
+  bottom: {
+    marginTop: '8%',
+    marginBottom: '8%',
     textAlign: 'center',
     fontFamily: 'SourceCodePro',
     fontSize: 18,
